@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react"
 import { Result } from "./components/Result"
+import { Summary } from "./components/Summary"
 function App() {
   const [defaultScore,setDefaultScore]=useState()
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Result />
+      <Summary />
     </>
   )
 }
