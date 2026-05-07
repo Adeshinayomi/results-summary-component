@@ -19,8 +19,13 @@ function App() {
 
   return (
     <>
-      <Result score={totalScore}/>
-      <Summary defaultScore={defaultScore}/>
+      <section className="md:h-screen md:grid md:content-center">
+        <div className="w-2/3 mx-auto md:flex md:gap-5 md:rounded-3xl md:bg-White md:shadow-xl ">
+          <Result score={totalScore}/>
+          <Summary defaultScore={defaultScore}/>
+        </div>
+      </section>
+
     </>
   )
 }
