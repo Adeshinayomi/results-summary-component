@@ -24,7 +24,7 @@ export default {
         Hanken:['Hanken','san-serif'],
         HankenBold:['HankenBold','san-serif'],
         HankenMd:['HankenMd','san-serif'],
-        HankenLg:['Hanken','san-serif'],
+        HankenLg:['HankenLg','san-serif'],
       }
     },
   },
